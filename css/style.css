@@ -11,10 +11,14 @@
 
 }
 
+.container-fluid{
+	padding: 60px 50px;
+}
+
 .navbar{
 	background-color: rgba(0, 0, 0, 0.6);
 	border: 0;
-	height: 
+
 	
 }
 .nav.navbar-nav{
