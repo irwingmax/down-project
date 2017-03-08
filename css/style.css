@@ -92,3 +92,13 @@ p.company{
     box-shadow: 5px 0px 40px rgba(0,0,0, .5);
     opacity: 1;
 }
+
+.row{
+	margin: 0;
+}
+
+footer.glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}

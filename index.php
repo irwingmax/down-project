@@ -7,8 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 </head>
-<body>
+<body id="MyPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<div class="container text-center">
 		<header class="col-sm-12 header" style="background-image: url('images/florest.jpg'); background-repeat:no-repeat;">
 			<nav class="navbar navbar-default navbar-fixed-top">
@@ -23,11 +24,11 @@
 				  	</div>
 				  	<div class="collapse navbar-collapse" id="MyNavbar">
 					    <ul class="nav navbar-nav cl-effect-4" >
-					    	<li><a href="index.html">HOME</a></li>
+					    	<li><a href="#MyPage">HOME</a></li>
 					        <li><a href="#">SOBRE O GAME</a></li>
 					      	<li><a href="#">SOBRE A DOENCA</a></li>
-					      	<li><a href="about.html">QUEM SOMOS</a></li>
-					      	<li><a href="contact.html">FALE CONOSCO</a></li>
+					      	<li><a href="#about">QUEM SOMOS</a></li>
+					      	<li><a href="#contact">FALE CONOSCO</a></li>
 					    </ul>
 					    <ul class="nav navbar-nav navbar-right cl-effect-4">
 					    	<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
@@ -45,7 +46,9 @@
 			</div>
 		</header>
 		
-		<div class="container" style="background-color: #fdfdfd;">
+		</div>
+
+		<div id="about" class="container text-center" style="background-color: #fdfdfd;">
 			<div class="row" >
 				<div class="col-sm-12">
 					<img src="images/Logo1.jpg" alt="linkeo" width="700" height="560">
@@ -82,8 +85,12 @@
 				</div>
 			</div>
 		</div>
-		
-		
-	</div>
+	<footer class="container-fluid text-center">
+		<a href="#MyPage" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		<p>Todos os Direitos reservados</p>
+	</footer>
+
 </body>
 </html>
