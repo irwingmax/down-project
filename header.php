@@ -12,9 +12,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 </head>
-<body>
+<body id="MyPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<div class="container text-center">
-		<header class="col-sm-12 header" style="background-image: url('images/florest.jpg'); background-repeat:no-repeat;">
+		<header class="col-sm-12 header" style="background-image: url('images/florest.jpg'); background-repeat:no-repeat; height: 500px;">
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header">
@@ -50,6 +50,3 @@
 		</header>
 		
 		</div>
-		
-
-<?php include("footer.php");?>
