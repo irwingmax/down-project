@@ -1,6 +1,6 @@
 .header{
 	width: 100%;
-	height: 700px;
+	height: 900px;
 	margin: 0;
 }
 
@@ -29,8 +29,9 @@
 	letter-spacing: 4px;
 }
 
-.nav.navbar-nav li a:hover{
-	color: #fff !important;
+.nav.navbar-nav li a:hover, .navbar-nav li.active a{
+	color: #000 !important;
+	background-color: #fff;
 }
 
 
@@ -43,38 +44,6 @@
 	color: #ffffff;
 }
 
-
-.cl-effect-4 a {
-	padding: 0 0 10px;
-}
-
-.cl-effect-4 a::after {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	height: 1px;
-	background: #fff;
-	content: '';
-	opacity: 0;
-	color: #ffffff;
-	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
-	transition: height 0.3s, opacity 0.3s, transform 0.3s;
-	-webkit-transform: translateY(-10px);
-	-moz-transform: translateY(-10px);
-	transform: translateY(-10px);
-}
-
-.cl-effect-4 a:hover::after,
-.cl-effect-4 a:focus::after {
-	height: 3px;
-	opacity: 1;
-	color: #ffffff;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	transform: translateY(0px);
-}
 
 p.company{
 	font-size: 16px;
@@ -97,8 +66,42 @@ p.company{
 	margin: 0;
 }
 
-footer.glyphicon {
+footer .glyphicon{
 	font-size: 20px;
-	margin-bottom: 20px;
-	color: #fff;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
 }
