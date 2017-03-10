@@ -2,11 +2,11 @@
 <div id="about" class="container text-center" style="background-color: #fdfdfd;">
 			<div class="row" >
 				<div class="col-sm-12">
-					<img src="images/Logo1.jpg" alt="linkeo" width="600" height="480">
+					<img src="images/Logo1.jpg" alt="linkeo" width="500" height="400">
 				</div>
 				
 			</div>
-			<div class="row slideanim">
+			<div class="row">
 				<div class="col-sm-2 ">
 					<p><strong>IRWING MAX</strong></p>
 					<p>DESENVOLVEDOR WEB</p>
