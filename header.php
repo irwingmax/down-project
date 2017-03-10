@@ -13,7 +13,7 @@
 </head>
 <body id="MyPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<div class="container text-center">
-		<header class="col-sm-12 header" style="background-image: url('images/florest.jpg'); background-repeat:no-repeat; height: 500px;">
+		<header class="col-sm-12 header" style="background-image: url('images/florest.jpg'); background-repeat:no-repeat; height: 300px;">
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header">
@@ -25,7 +25,7 @@
 					   <a href="#" class="navbar-brand"></a>
 				  	</div>
 				  	<div class="collapse navbar-collapse" id="MyNavbar">
-					    <ul class="nav navbar-nav cl-effect-4" >
+					    <ul class="nav navbar-nav" >
 					    	<li><a href="index.php">HOME</a></li>
 					        <li><a href="game.php">SOBRE O GAME</a></li>
 					      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.php">SOBRE O CANCER <span class="caret"></span></a>
@@ -41,14 +41,14 @@
 					    </ul>
 					    <ul class="nav navbar-nav navbar-right cl-effect-4" style="margin-right: 30px; ">
 					    	<li><a href="pre_login.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
-					    	<li><a href="pre_cadastro.php"><span class="glyphicon glyphicon-user"></span> CADASTRA-SE</a></li>
+					    	<li><a href="register.php"><span class="glyphicon glyphicon-user"></span> CADASTRA-SE</a></li>
       						
 					    </ul>
 				  	</div>
 				</div>			 
 			</nav>
 
-			<div class="jumbotron text-center">
+			<div class="jumbotron text-center" style="padding-top: 100px;padding-bottom: 100px;">
 				<h1>A LENDA DOS CARECAS</h1>
 				<p>Seja livre, seja uma lenda!</p>
 				

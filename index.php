@@ -25,7 +25,7 @@
 					   <a href="#" class="navbar-brand"></a>
 				  	</div>
 				  	<div class="collapse navbar-collapse" id="MyNavbar">
-					    <ul class="nav navbar-nav" >
+					    <ul class="nav navbar-nav text-center" >
 					    	<li class="active"><a href="index.php">HOME</a></li>
 					        <li><a href="game.php">SOBRE O GAME</a></li>
 					      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.php">SOBRE O CANCER <span class="caret"></span></a>
@@ -42,7 +42,7 @@
 					    </ul>
 					    <ul class="nav navbar-nav navbar-right cl-effect-4" style="margin-right: 30px; ">
 					    	<li><a href="pre_login.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
-					    	<li><a href="pre_cadastro.php"><span class="glyphicon glyphicon-user"></span> CADASTRA-SE</a></li>
+					    	<li><a href="register.php"><span class="glyphicon glyphicon-user"></span> CADASTRA-SE</a></li>
       						
 					    </ul>
 				  	</div>
@@ -50,8 +50,11 @@
 			</nav>
 
 			<div class="jumbotron text-center">
-				<h1>A LENDA DOS CARECAS</h1>
-				<p>Seja livre, seja uma lenda!</p>
+				<div>
+					<h1>A LENDA DOS CARECAS</h1>
+					<p>Seja livre, seja uma lenda!</p>
+				</div>
+				
 				
 			</div>
 		</header>

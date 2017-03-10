@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 		
-		<div id="contact" class="container-fluid bg-grey" style="margin: 50px;">
+		<div id="contact" class="container-fluid bg-grey" style="margin: 30px;padding-top: 0px;">
 			<h2 class="text-center" style="margin-bottom: 30px; ">CONTATO</h2>
 			<div class="row">
 				<div class="col-sm-5 text-left" style="font-size: 18px;">
@@ -8,7 +8,7 @@
 					<p><span class="glyphicon glyphicon-phone"></span> +55 11 2365-9658</p>
 					<p><span class="glyphicon glyphicon-envelope"></span> lenda@doscarecas.com.br</p>
 				</div>
-				<div class="col-sm-7 slideanim">
+				<div class="col-sm-7 ">
 					<div class="row">
 						<div class="col-sm-6" style="padding-left: 0;">
 							<input type="text" class="form-control" id=name name="name" placeholder="Nome" required>

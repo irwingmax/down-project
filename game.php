@@ -1,18 +1,7 @@
 <?php include("header.php"); ?>
 
-
-		<div id="game" class="container text-center" style="padding: 20px 80px;">
-			<div class="row">
-				<div class="col-sm-12">
-					
-				
-					
-						<h3 style="padding-top: 20px;">SOBRE O GAME</h3>					
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
+		<div id="game" class="container" style="margin-top: 30px;">
+			<h2 class="text-center">SOBRE O GAME</h2>					
 			<div class="row game">
 				<div class="col-sm-4 text-center">
 					<img src="images/Mario.png" alt="" width="250" height="250" class="img-circle person">
