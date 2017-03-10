@@ -2,7 +2,7 @@ html, body{height: 100%;}
 
 body, p, h3{font-family: "Raleway", sans-serif;}
 body.full { 
-			background-image: url(https://img.elo7.com.br/product/zoom/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg) ;
+			background-image: url(https://lh3.googleusercontent.com/GvXrgnzGMv5XjX88EyW2Xb8Dvza3mlSfncqjowg_GwEc8mzeT_zem2wpxpui-oaxIt9ADBw9RrQF4n8=w1814-h907-rw) ;
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
@@ -19,7 +19,7 @@ div, body{ margin: 0; padding: 0;}
 	width: 100%;
 	height: 300px;
 	margin: 0;
-	background-image: url(https://img.elo7.com.br/product/zoom/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg) ;
+	background-image: url(https://lh3.googleusercontent.com/GvXrgnzGMv5XjX88EyW2Xb8Dvza3mlSfncqjowg_GwEc8mzeT_zem2wpxpui-oaxIt9ADBw9RrQF4n8=w1814-h907-rw) ;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -37,11 +37,7 @@ div, body{ margin: 0; padding: 0;}
 .nav.navbar-nav li a{color: #ffffff; font-size: 15px;}
 .nav.navbar-nav li a:hover, .navbar-nav li.active a{color: #000 !important; background-color: #fff;}
 
-@media (min-width: 1045px){
-	.nav.navbar-nav li a:visited{color: #ffffff; font-size: 15px;}
-	.nav.navbar-nav li a{color: #ffffff; font-size: 15px;}
-	.nav.navbar-nav li a:hover, .navbar-nav li.active a{color: #000 !important; background-color: #fff;}
-}
+
 
 
 .jumbotron{background-color: rgba(0, 0, 0, 0.0);height: 100%;margin: 0;color: #ffffff; padding-top: 300px;padding-bottom: 300px;}
