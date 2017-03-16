@@ -2,7 +2,7 @@ html, body{height: 100%;}
 
 body, p, h3{font-family: "Raleway", sans-serif;}
 body.full { 
-			background-image: url(https://lh3.googleusercontent.com/GvXrgnzGMv5XjX88EyW2Xb8Dvza3mlSfncqjowg_GwEc8mzeT_zem2wpxpui-oaxIt9ADBw9RrQF4n8=w1814-h907-rw) ;
+			background-image: url(images/florest.jpg) ;
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
@@ -13,13 +13,20 @@ body.full {
 
 div, body{ margin: 0; padding: 0;}
 
+@media screen and (min-width: 768px) {
+    p.parag{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 
 
 .header{
 	width: 100%;
 	height: 300px;
 	margin: 0;
-	background-image: url(https://lh3.googleusercontent.com/GvXrgnzGMv5XjX88EyW2Xb8Dvza3mlSfncqjowg_GwEc8mzeT_zem2wpxpui-oaxIt9ADBw9RrQF4n8=w1814-h907-rw) ;
+	background-image: url(images/florest.jpg) ;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -27,14 +34,14 @@ div, body{ margin: 0; padding: 0;}
 	background-color: #999;
 }
 
-.container{margin: 0; padding: 0; width:100%;}
+.container{margin: 0 auto; padding: 0; width:100%;}
 .container-fluid{padding: 60px 50px;}
 
 
 .navbar{background-color: rgba(0, 0, 0, 0.6); border: 0;}
-.nav.navbar-nav{margin-left: 30px;}
+
 .nav.navbar-nav li a:visited{color: #ffffff; font-size: 15px;}
-.nav.navbar-nav li a{color: #ffffff; font-size: 15px;}
+.nav.navbar-nav li a{color: #ffffff; font-size: 15px; padding-left: 10px; padding-right: 10px;}
 .nav.navbar-nav li a:hover, .navbar-nav li.active a{color: #000 !important; background-color: #fff;}
 
 
@@ -50,7 +57,7 @@ p.company{
 	padding-right: 60px;
 }
 
-.person {border: 5px solid transparent; margin-bottom: 25px; transition: box-shadow 0.3s; opacity: 0.7;}
+.person {border: 5px solid transparent; margin: 0 auto; transition: box-shadow 0.3s; opacity: 0.7;}
 .person:hover {box-shadow: 5px 0px 40px rgba(0,0,0, .5); opacity: 1;}
 
 

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>A Lenda dos Carecas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -40,7 +41,7 @@
 					      	<li><a href="sobre.php">QUEM SOMOS</a></li>
 					      	<li><a href="contato.php">FALE CONOSCO</a></li>
 					    </ul>
-					    <ul class="nav navbar-nav navbar-right cl-effect-4" style="margin-right: 30px; ">
+					    <ul class="nav navbar-nav navbar-right cl-effect-4" >
 					    	<li><a href="pre_login.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
 					    	<li><a href="register.php"><span class="glyphicon glyphicon-user"></span> CADASTRA-SE</a></li>
       						
@@ -50,7 +51,7 @@
 			</nav>
 
 			<div class="jumbotron text-center">
-				<div>
+				<div class="box">
 					<h1>A LENDA DOS CARECAS</h1>
 					<p>Seja livre, seja uma lenda!</p>
 				</div>
