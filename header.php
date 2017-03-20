@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
@@ -19,13 +20,13 @@
 				<div class="container">
 					<div class="navbar-header">
 					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
-					      <span class="icon-bar"></span>
-					      <span class="icon-bar"></span>
-					      <span class="icon-bar"></span>
+					      <span class="icon-bar" style="background-color: rgba(255, 255, 255, 1);"></span>
+					      <span class="icon-bar" style="background-color: rgba(255, 255, 255, 1);"></span>
+					      <span class="icon-bar" style="background-color: rgba(255, 255, 255, 1);"></span>
 					    </button>  
 					   <a href="#" class="navbar-brand"></a>
 				  	</div>
-				  	<div class="collapse navbar-collapse" id="MyNavbar">
+				  	<div class="collapsing width " id="MyNavbar">
 					    <ul class="nav navbar-nav navbar-left" >
 					    	<li><a href="index.php">HOME</a></li>
 					        <li><a href="game.php">SOBRE O GAME</a></li>
@@ -40,7 +41,7 @@
 					      	<li><a href="sobre.php">QUEM SOMOS</a></li>
 					      	<li><a href="contato.php">FALE CONOSCO</a></li>
 					    </ul>
-					    <ul class="nav navbar-nav navbar-right " >
+					    <ul class="nav navbar-nav navbar-right ajuste" >
 					    	<li><a href="pre_login.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
 					    	<li><a href="pre_cadastro.php"><span class="glyphicon glyphicon-user"></span> CADASTRA-SE</a></li>
       						

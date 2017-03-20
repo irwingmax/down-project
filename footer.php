@@ -1,4 +1,4 @@
-		<!--FOOTER-->
+			<!--FOOTER-->
 	<footer class="container-fluid text-center" style="background-color: #000;">
 		<a href="#MyPage" title="To Top">
 			<span class="glyphicon glyphicon-chevron-up"></span>
@@ -16,6 +16,8 @@
 		    }
 		  });
 		});
+
+	
 		
 	</script>
 	

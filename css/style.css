@@ -1,6 +1,6 @@
 html, body{height: 100%;}
 
-body, p, h3{font-family: "Raleway", sans-serif;}
+body, p, h3{font-family: "Roboto", sans-serif;}
 body.full { 
 			background-image: url(../images/florest.jpg) ;
 			background-position: center center;
@@ -14,9 +14,24 @@ body.full {
 div, body{ margin: 0; padding: 0;}
 
 @media screen and (min-width: 768px) {
-    p.parag{
+    .ajuste{
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .ajuste-texto{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .collapsing.width {
+      -webkit-transition-property: width, visibility;
+      transition-property: width, visibility;
+      width: 0;
+      height: auto;
     }
 }
 
@@ -38,11 +53,11 @@ div, body{ margin: 0; padding: 0;}
 .container-fluid{padding: 60px 50px;}
 
 
-.navbar{background-color: rgba(0, 0, 0, 0.6); border: 0;}
+.navbar{background-color: rgba(0, 0, 0, 0.0); border: 0; padding: 10px;}
 
-.nav.navbar-nav li a:visited{color: #ffffff; font-size: 15px;}
-.nav.navbar-nav li a{color: #ffffff; font-size: 15px; padding-left: 10px; padding-right: 10px;}
-.nav.navbar-nav li a:hover, .navbar-nav li.active a{color: #000 !important; background-color: #fff;}
+.nav.navbar-nav li a:visited{color: #ffffff; font-size: 15px; font-weight: bold;}
+.nav.navbar-nav li a{color: #ffffff; font-size: 15px; padding-left: 10px; padding-right: 10px; font-weight: bold;} 
+.nav.navbar-nav li a:hover, .navbar-nav li.active a{color: #fff !important; background-color: rgba(0, 0, 0, 0.0);}
 
 
 

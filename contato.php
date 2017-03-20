@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 		
-		<div id="contact" class="container-fluid bg-grey" style="margin: 30px;padding-top: 0px;">
+		<div id="contact" class="container-fluid bg-grey ajuste" style="padding-top: 0px;">
 			<h2 class="text-center" style="margin-bottom: 30px; ">CONTATO</h2>
 			<div class="row">
 				<div class="col-sm-5 text-left" style="font-size: 18px;">

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
@@ -41,7 +42,7 @@
 					      	<li><a href="sobre.php">QUEM SOMOS</a></li>
 					      	<li><a href="contato.php">FALE CONOSCO</a></li>
 					    </ul>
-					    <ul class="nav navbar-nav navbar-right cl-effect-4" >
+					    <ul class="nav navbar-nav navbar-right ajuste">
 					    	<li><a href="pre_login.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
 					    	<li><a href="register.php"><span class="glyphicon glyphicon-user"></span> CADASTRA-SE</a></li>
       						
