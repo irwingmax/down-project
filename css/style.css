@@ -2,13 +2,12 @@ html, body{height: 100%; min-height: 100%}
 
 body, p, h3{font-family: "Roboto", sans-serif;}
 body.full { 
-			background-image: url(../images/florest.jpg) ;
+			background-image: url(https://img.elo7.com.br/product/original/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg) ;
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
 			background-size:  cover;
 			background-color: #999;
-  
 }
 
 div, body{ margin: 0; padding: 0;}
@@ -19,23 +18,22 @@ div, body{ margin: 0; padding: 0;}
         padding-right: 30px;
     }
     .ajuste-texto{
-        padding-left: 60px;
-        padding-right: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 60PX;
     }
     
 }
 
-@media screen and (max-width: 768px){
-    .bg-menu{background-color: rgba(36, 71, 18, 0.7);}
-}
-
-
-
+@media screen and (max-width: 768px){.bg-menu{background-color: rgba(36, 71, 18, 0.7);}}
+button{border: 0px; padding: 0px;}
+button a {background-color: #74c802; padding: 10px; border: 0px;color: #fff;}
+button a:hover {color: #fff; text-decoration: none;}
 .header{
 	width: 100%;
 	height: 500px;
 	margin: 0;
-	background-image: url(../images/florest.jpg) ;
+	background-image: url(https://img.elo7.com.br/product/original/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg) ;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -55,8 +53,6 @@ div, body{ margin: 0; padding: 0;}
 .nav.navbar-nav li a{color: #ffffff; font-size: 15px; padding-left: 10px; padding-right: 10px; font-weight: bold;} 
 .nav.navbar-nav li a:hover, .navbar-nav li.active a{color: #fff !important; background-color: rgba(0, 0, 0, 0.0);}
 
-
-
 .box{
   height: 100%;
   min-height: 100%;
@@ -70,12 +66,7 @@ div, body{ margin: 0; padding: 0;}
 
 .box div {background-color: rgba(0, 0, 0, 0.0);color: #ffffff; border: 1px solid rgba(0, 0, 0, 1);border-radius: 0px;}
 
-
-p.company{
-	font-size: 16px;
-	padding-left: 60px;
-	padding-right: 60px;
-}
+p.company{font-size: 16px;padding-left: 60px;padding-right: 60px;}
 
 .person {border: 5px solid transparent; margin: 0 auto; transition: box-shadow 0.3s; opacity: 0.7;}
 .person:hover {box-shadow: 5px 0px 40px rgba(0,0,0, .5); opacity: 1;}
@@ -86,12 +77,23 @@ p.company{
 
 .formu{padding-right: 140px;padding-left: 140px;}
 
-footer .glyphicon{
-	font-size: 20px;
-    margin-bottom: 20px;
-    color: #ffffff;
-}
+.titulo-page{position: absolute;bottom: 30px;left: 0;display: block;width: 100%;color:#fff}
+.titulo-page::before{left: 5px;}
+.titulo-page::before, .titulo-page::after{display: block;height: 2px;width: calc(50% - 70px);content: ' ';background-color: #ccdb1e;position: absolute;margin-top: 15px;}
+.titulo-page::after{right:5px;}
+.titulo-page::after{bottom: 15px;}
 
+
+
+footer .glyphicon{font-size: 20px;margin-bottom: 20px;color: #ffffff;}
+
+
+
+
+
+
+
+/*SLIDE ANIMATION*/
 .slideanim {visibility:hidden;}
 .slide {
     /* The name of the animation */
@@ -103,7 +105,6 @@ footer .glyphicon{
     /* Make the element visible */
     visibility: visible; 
 }
-
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
 @keyframes slide {
     0% {

@@ -30,9 +30,9 @@
 							  	<div class=" collapse navbar-collapse" id="MyNavbar" style="border-top-style: none;">
 								    <ul class="nav navbar-nav navbar-left" >
 								    	<li><a href="index.php">HOME</a></li>
-								        <li><a href="game.php">SOBRE O GAME</a></li>
-								      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.php">SOBRE O CANCER <span class="caret"></span></a>
-											<ul class="dropdown-menu" style="background: rgba(0, 0, 0, 0.6);">
+								        <li><a href="game.php">O JOGO</a></li>
+								      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.php">O CANCER <span class="caret"></span></a>
+											<ul class="dropdown-menu" style="background: rgba(0, 0, 0, 0.0);">
 								      			<li><a href="#">CONCEITO</a></li>
 								      			<li><a href="#">TIPOS DE CANCER</a></li>
 								      			<li><a href="#">TRATAMENTO</a></li>
@@ -40,7 +40,7 @@
 								      		</ul>
 								      	</li>
 								      	<li><a href="sobre.php">QUEM SOMOS</a></li>
-								      	<li><a href="contato.php">FALE CONOSCO</a></li>
+								      	<li><a href="contato.php">CONTATO</a></li>
 								    </ul>
 								    <ul class="nav navbar-nav navbar-right ajuste" >
 								    	<li><a href="pre_login.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
@@ -50,9 +50,12 @@
 							</div>
 						</div>			 
 					</nav>
-					<div class="jumbotron text-center">
-						<h1>A LENDA DOS CARECAS</h1>
-						<p>Seja livre, seja uma lenda!</p>
+					<div class="box">
+						<div class="jumbotron">
+							<h1>A LENDA DOS CARECAS</h1>
+							<p>Seja livre, seja uma lenda!</p>
+						</div>
+						
 					</div>
 		
 			</header>

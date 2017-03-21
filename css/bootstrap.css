@@ -1594,7 +1594,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 1170px;
   }
 }
 @media (min-width: 1200px) {
@@ -4442,7 +4442,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             box-shadow: none;
   }
 }
-.navbar-nav > li > .dropdown-menu {
+.navbar-nav > li > .
+-menu {
   margin-top: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -4542,7 +4543,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+   background-color: rgba(0, 0, 0, 0.0);
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {

@@ -15,13 +15,27 @@
 </head>
 <body class="full">
 
-		<div class="box">
-			<div class="jumbotron text-center">
+		<div class="box ">
+			<div class="jumbotron text-center slideanim">
 				<h1>A LENDA DOS CARECAS</h1>
 				<p>Seja livre, seja uma lenda!</p>
+				<button class="btn-site "><a href="game.php">IR PARA O SITE</a></button>
 			</div>
 		</div>	
+	<script>
+		$(document).ready(function(){
+			$(".slideanim").each(function(){
+		    var pos = $(this).offset().top;
 
+		    var winTop = $(window).scrollTop();
+		    if (pos < winTop + 600) {
+		      $(this).addClass("slide");
+		    }
+		  });
+		});
+	
+
+	</script>
 </body>
 </html>
 		
