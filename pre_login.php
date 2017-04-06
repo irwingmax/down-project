@@ -1,36 +1,41 @@
-<?php include("header.php"); ?>
+<!DOCTYPE html>
+<html lang="br">
+<head>
+	<meta charset="UTF-8">
+	<title>A Lenda dos Carecas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
-	<div class="container">
-		<div class="row text-center" style="margin-top: 30px; margin-bottom: 30px;">
-			<div class="col-sm-6">
-				<h3>Login para o pais</h3>
-				<form action="" class="formu">
-					<div class="form-group">
-						<label for="email">Login: </label>
-						<input type="email" class="form-control" id="email">
-					</div>
-					<div class="form-group">
-						<label for="pwd">Senha: </label>
-						<input type="password" id"pwd" class="form-control">
-					</div>
-					<button class="btn btn-default">Entrar</button>	
-				</form>
-			</div>
-			<div class="col-sm-6">
-				<h3>Login para os filhos</h3>
-				<form action="" class="formu">
-					<div class="form-group">
-						<label for="email">Login: </label>
-						<input type="email" class="form-control" id="email">
-					</div>
-					<div class="form-group">
-						<label for="pwd">Senha: </label>
-						<input type="password" id"pwd" class="form-control">
-					</div>
-					<button class="btn btn-default">Entrar</button>	
-				</form>
-			</div>
-		</div>
-	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</head>
+<body class="full">
 
-<?php include("footer.php"); ?>
+		<div class="box ">
+			<div class="jumbotron text-center slideanim">
+				<h1>EM BREVE</h1>
+				<br>
+				<button class="btn-site "><a href="game.php">VOLTAR PARA O SITE</a></button>
+			</div>
+		</div>	
+	<script>
+		$(document).ready(function(){
+			$(".slideanim").each(function(){
+		    var pos = $(this).offset().top;
+
+		    var winTop = $(window).scrollTop();
+		    if (pos < winTop + 600) {
+		      $(this).addClass("slide");
+		    }
+		  });
+		});
+	
+
+	</script>
+</body>
+</html>
+		

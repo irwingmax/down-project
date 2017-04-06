@@ -39,12 +39,11 @@
 								      			<li><a href="#">CUIDADOS</a></li>
 								      		</ul>
 								      	</li>
-								      	<li><a href="sobre.php">QUEM SOMOS</a></li>
+								      	<li><a href="sobre.php">A EMPRESA</a></li>
 								      	<li><a href="contato.php">CONTATO</a></li>
 								    </ul>
 								    <ul class="nav navbar-nav navbar-right ajuste" >
-								    	<li><a href="pre_login.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
-								    	<li><a href="pre_cadastro.php"><span class="glyphicon glyphicon-user"></span> CADASTRA-SE</a></li>			
+								    	<li><a href="pre_login.php"><span class="glyphicon glyphicon-log-in"></span> AREA DO JOGADOR</a></li>			
 								    </ul>
 							  	</div>
 							</div>
