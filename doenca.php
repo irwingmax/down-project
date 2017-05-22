@@ -1,22 +1,35 @@
 <?php include("header.php"); ?>
-<div id="doenca" class="container text-center">
-			<div class="row">
-				<div class="col-sm-12">
-					<h3 style="padding-top: 20px;">SOBRE A DOENÇA</h3>
-						<p style="font-size: 18px;" class="slideanim">
-							Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam commodo dui eget wisi. Donec iaculis gravida nulla. Donec quis nibh at felis congue commodo. Etiam bibendum elit eget erat.
-
- 							Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam commodo dui eget wisi. Donec iaculis gravida nulla. Donec quis nibh at felis congue commodo. Etiam bibendum elit eget erat.
-
- 							Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere. Nullam lectus justo, vulputate eget, mollis sed, tempor sed, magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam neque. Curabitur ligula sapien, pulvinar a, vestibulum quis, facilisis vel, sapien. Nullam eget nisl. Donec vitae arcu.
-
- 							Etiam posuere quam ac quam. Maecenas aliquet accumsan leo. Nullam dapibus fermentum ipsum. Etiam quis quam. Integer lacinia. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Integer vulputate sem a nibh rutrum consequat. Maecenas lorem. Pellentesque pretium lectus id turpis. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Fusce wisi. Phasellus faucibus molestie nisl. Fusce eget urna. Curabitur vitae diam non enim vestibulum interdum. Nulla quis diam. Ut tempus purus at lorem.
-
- 							Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat.
-
-
-						</p>
-				</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2 class="titulo-page">Sobre o Câncer</h2>
 			</div>
 		</div>
+		<article>
+			<div class="row">
+				<div class="col-md-8 col-xs-12">
+					<p class="ajuste-texto">
+						Câncer, conhecido também como neoplasia, é o termo utilizado para designar um grupo de doenças causadas pelo crescimento desenfreado das células, que permite a construção de um tecido anormal, ocasionando por vezes um tumor maligno. 
+						O corpo humano é constituído por inúmeras células que normalmente crescem, se dividem e morrem de forma sincronizada, processo conhecido como divisão celular. 
+						Entretanto esse processo ocorre de forma diferente em uma pessoa com câncer. As partículas mortas continuam crescendo e se dividindo, danificando o material genético (DNA) e dando origem a células cancerosas. Esta, por sua vez, sofre uma evolução descontrolada e pode apoderar-se de outros tecidos, ação conhecida como metástase.  
+						É possível herdar geneticamente um DNA anômalo, mas na maioria dos casos as lesões do material genético são acarretadas por erros que acontecem quando a célula normal está se multiplicando ou por exposição a algum elemento do meio externo, como o tabagismo ou exposição ao sol. 
+					</p>
+				</div>
+				<div class="col-md-4 col-xs-12">
+						<img src="images/seringa.jpg" alt="seringa" width="250" height="250" class="img-responsive img-circle personalizado">		
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<img src="images/este.jpg" alt="estetoscópio" width="250" height="250" class="img-responsive img-circle personalizado">
+				</div>
+				<div class="col-md-8 col-xs-12">
+					<p class="ajuste-texto">
+						Em caso de câncer infantil, as causas não são totalmente conhecidas, entretanto sabe-se que ele é causado por alterações em células que estão em fase de crescimento, o que faz com que a evolução da doença geralmente ocorre de forma mais acelerada (OLIVEIRA, 2016). O grande problema é que não é possível fazer uma prevenção primária do câncer infantil, o diagnóstico precoce é a melhor arma na luta contra a enfermidade, aliado a um tratamento adequado de acordo com o caso clínico da criança. No entanto, o câncer pediátrico nem sempre é descoberto no estágio inicial, principalmente porque alguns sintomas, como febre persistente, manchas roxas pelo corpo, gânglios e dores nos ossos ou no abdômen; podem se confundir com outros males comuns na infância.
+					</p>
+				</div>
+			</div>
+		</article>
+		
+	</div>
 <?php include("footer.php"); ?>
