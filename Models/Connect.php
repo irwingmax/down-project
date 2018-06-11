@@ -15,7 +15,7 @@ class Connect
         $this->dbname =  "db_unidos";
 
         try {
-            $this->connection = new \PDO(
+            $this->connection = new PDO(
                 "mysql:host=$this->server;
                 dbname=$this->dbname",
                 $this->user,
