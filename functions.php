@@ -43,9 +43,9 @@ function insertData()
             obtainData(),
             obtainComentario()
         );
-        header("Location: http://http://unidosaosindoromededown-com.umbler.net/parceiros.php");
+        header("Location: http://unidosaosindoromededown-com.umbler.net/parceiros.php");
     } catch (PDOException $e) {
-        header("Location: http://http://unidosaosindoromededown-com.umbler.net/parceiros.php?r=error");
+        header("Location: http://unidosaosindoromededown-com.umbler.net/parceiros.php?r=error");
     }
 }
 
