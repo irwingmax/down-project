@@ -9,9 +9,9 @@ class Connect
 
     public function connectar()
     {
-        $this->server =  "localhost";
-        $this->user   =  "root";
-        $this->pwd    =  "";
+        $this->server =  "mysql427.umbler.com";
+        $this->user   =  "unidos";
+        $this->pwd    =  "maxpri2014";
         $this->dbname =  "db_unidos";
 
         try {
