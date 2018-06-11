@@ -2,7 +2,7 @@
 <html lang="br">
 <head>
 	<meta charset="UTF-8">
-	<title>A Lenda dos Carecas</title>
+	<title>Unidos ao sídrome de down</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -30,10 +30,12 @@
 					  	<div class="collapse navbar-collapse" id="MyNavbar">
 						    <ul class="nav navbar-nav navbar-left" >
 						    	<li><a href="index.php">HOME</a></li>
-						        <li><a href="game.php">O JOGO</a></li>
-						      	<li><a href="doenca.php">O CANCER</a></li>
-						      	<li><a href="sobre.php">A EMPRESA</a></li>
-						      	<li><a href="contato.php">CONTATO</a></li>
+						        <li><a href="ideia.php">A IDEIA</a></li>
+						        <li><a href="brinquedo.php">O BRINQUEDO</a></li>
+						      	<li><a href="sindrome.php">A SÍNDROME</a></li>
+						      	<li><a href="sobre.php">QUEM SOMOS?</a></li>
+						      	<li><a href="contato.php">FALE CONOSCO</a></li>
+                                <li><a href="parceiros.php">PARCEIROS</a></li>
 						    </ul>
 					  	</div>
 					</div>
@@ -41,8 +43,8 @@
 			</nav>
 			<div class="box">
 				<div class="jumbotron">
-					<h1>A LENDA DOS CARECAS</h1>
-					<p>Seja livre, seja uma lenda!</p>
+					<h1>UNIDOS AO SÍNDROME DE DOWN</h1>
+					<p>O amor que não conta cromossomos</p>
 				</div>
 			</div>
 		</header>

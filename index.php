@@ -2,7 +2,7 @@
 <html lang="br">
 <head>
 	<meta charset="UTF-8">
-	<title>A Lenda dos Carecas</title>
+	<title>Unidos ao Síndrome de Down</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -15,9 +15,9 @@
 <body class="full">
 		<div class="box ">
 			<div class="jumbotron text-center slideanim">
-				<h1>A LENDA DOS CARECAS</h1>
-				<p>Seja livre, seja uma lenda!</p>
-				<button class="btn-site "><a href="game.php">IR PARA O SITE</a></button>
+				<h1>UNIDOS AO SÍNDROME DE DOWN</h1>
+				<p>O amor que não conta cromossomos</p>
+				<button class="btn-site "><a href="ideia.php">IR PARA O SITE</a></button>
 			</div>
 		</div>	
 	
