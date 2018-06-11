@@ -144,6 +144,11 @@ article div div .painel-subtitle{
 	font-style: italic;
 }
 
+/*PARCEIROS PAGE*/
+article .form-parceiros{
+	margin-top: 90px;
+}
+
 /*FOOTER*/
 footer .glyphicon{font-size: 20px;margin-bottom: 20px;color: #ffffff;}
 footer{height:150px; background-color: #000;}
