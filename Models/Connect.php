@@ -11,7 +11,7 @@ class Connect
     {
         $this->server =  "mysql427.umbler.com";
         $this->user   =  "usd_saojudas";
-        $this->pwd    =  "-A2YiSvt|8IJg";
+        $this->pwd    =  "(6WI{2gcDE";
         $this->dbname =  "db_saojudas";
 
         try {
