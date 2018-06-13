@@ -12,7 +12,7 @@ class Connect
         $this->server =  "mysql427.umbler.com";
         $this->user   =  "usd_saojudas";
         $this->pwd    =  "(6WI{2gcDE";
-        $this->dbname =  "db_saojudas";
+        $this->dbname =  "db_unidos";
 
         try {
             $this->connection = new PDO(
